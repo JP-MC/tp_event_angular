@@ -1,0 +1,7 @@
+    <section id="event-list" class="container" *ngIf="user_id">
+        <app-aevent
+            *ngFor="let aevent of aevent_list" 
+            [aevent]="aevent" 
+            [user_id]="user_id"
+        ></app-aevent>
+    </section>

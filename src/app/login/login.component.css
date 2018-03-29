@@ -1,0 +1,13 @@
+#login-form h3{margin-top:0;}
+#login-form label{display:inline-block;width:140px;}
+#form-wrap{display:flex;}
+#form-wrap>div{flex:1;}
+
+input,label,select{margin-bottom:0.4em;}
+input,select{border:0;font-family:'Quicksand',Arial,sans-serif;font-size:1em;height:1.8em;line-height:1.8em;padding:0 0.4em;}
+input[type=button]{background-color:#956a17;color:#fff;border:0;font-family:'Raleway',Arial,sans-serif;text-transform:uppercase;padding:0 1em;width:100%;transition:background-color 0.4s;}
+input[type=button]:hover{background-color:#000;}
+
+#is-logged{display:flex;}
+#is-logged div:first-of-type{flex:3 0 auto;}
+#is-logged div:last-of-type{flex:1 0 auto;}

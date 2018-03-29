@@ -1,0 +1,13 @@
+<div class="event">
+    <header>
+        <div class="id-category">{{ aevent.category }}</div>
+        <h4 appBg class="label">{{ aevent.label }}</h4>
+        <div class="take-part" *ngIf="user_id">Participer</div>
+        <div class="leave" *ngIf="!user_id">Ne plus participer</div>
+    </header>
+    <div class="event-wrap">
+        <p class="position">Lieu : {{ aevent.position }}</p>
+        <p class="date-start">Début : {{ readableDateTime(aevent.date_start) }}</p>
+        <p class="date-end">Fin : {{ readableDateTime(aevent.date_end) }}</p>
+    </div>
+</div>
